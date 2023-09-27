@@ -1,0 +1,128 @@
+.coding-section {
+    background-color: #242a2f;
+    padding: 25px 0;
+}
+.coding-title {
+    color: #fff;
+    margin: 24px 0 0 0;
+}
+.coding-text {
+    color: #fff;
+    width: 714px;
+}
+.smoothy-tilte {
+    color: #fff;
+}
+.smoothy-text {
+    color: #fff;
+}
+.learnmore-btn {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+    width: 150px;
+} */
+
+.studying-img {
+    width: 300px;
+}
+.program {
+    width: 227px;
+}
+.certificate-title {
+    /* color:#FFF; */
+    margin: 25px 0;
+    font-weight: 900;
+}
+.certificate-text {
+    width: 700px;
+}
+.developer-img {
+    width: 300px;
+    margin: 12px 0;
+}
+.box-logic {
+    border-radius: 16px;
+    background: #dc5f00;
+    color: #fff;
+    padding: 18px;
+    font-weight: 900;
+    width: 400px;
+}
+.skill-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+.title-exam {
+    font-size: 28px;
+    font-weight: 900;
+}
+.btn-certficate {
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin: 24px 0;
+    background-color: #000;
+    padding: 6px;
+    width: 150px;
+    color: 12px;
+}
+.studying-img{
+    width:227px
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .btn-mob{
+        flex-direction: column;
+        align-items: center;
+    }
+    .coding-text {
+        width: 501px;
+    }
+    .coding-title {
+        
+        margin: 24px 0;
+    }
+    .smoothy-tilte{
+        margin: 24px 0;
+    }
+}
+@media (max-width: 575px){
+    .btn-mob{
+        flex-direction: column;
+        align-items: center;
+    }
+    .coding-text {
+        width: 299px;
+    }
+    .coding-section {
+        padding: 25px;
+
+    }
+    .smoothy-tilte{
+        margin: 24px 0;
+    }
+}
+
+@media (max-width: 320px) {
+   .coding-text {
+    width: 242px;
+}
+.hellocodestudent{
+    flex-direction: column-reverse;
+}
+.coding-section {
+    padding: 25px;
+}
+.coding-title {
+    color: #fff;
+    /* margin: 24px 0 0 0; */
+    margin: 24px 0;
+}
+.smoothy-tilte {
+    color: #fff;
+    margin: 24px 0;
+}
+}

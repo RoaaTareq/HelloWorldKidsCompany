@@ -1,0 +1,91 @@
+.team {
+    width: 250px;
+    margin: 12px 0;
+}
+.title-partners{
+    text-align: center;
+    
+}
+.parnters{
+    width: 200px;
+}
+.Awards-title{
+    text-align: center;
+    font-weight: 900;
+    margin: 24px 0;
+}
+.Award-text{
+    font-size: 14px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.About-us{
+    text-align: center;
+    font-weight: 900;
+    margin: 24px 0 12px 0;
+}
+
+.student{
+    width: 500px;
+    border-radius: 12px;
+    margin: 24px  auto;
+    display: flex;
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .talent-certficate {
+        width: 268px;
+    }
+    .talents-title{
+       padding-top: 24px;
+    }
+    .team-mob{
+ flex-direction: column;
+    }
+    .title-perks{
+        width: 264px;
+    }
+    .text-perks{
+        width:270px
+    }
+       
+}
+@media (max-width: 575px){
+    .talent-certficate {
+        width: 268px;
+    }
+    .talents-title{
+       padding-top: 24px;
+    }
+    .team-mob{
+ flex-direction: column;
+    }
+    .title-perks{
+        width: 264px;
+    }
+    .text-perks{
+        width:270px
+    }
+   
+}
+
+@media (max-width: 320px) {
+    .talent-certficate {
+        width: 268px;
+    }
+    .talents-title{
+       padding-top: 24px;
+    }
+    .team-mob{
+ flex-direction: column;
+    }
+    .title-perks{
+        width: 264px;
+    }
+    .text-perks{
+        width:270px
+    }
+
+}

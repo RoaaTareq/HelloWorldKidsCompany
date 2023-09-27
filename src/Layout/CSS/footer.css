@@ -1,0 +1,18 @@
+.footer-section{
+    background: #242A2F;
+    padding: 24px 0;
+}
+.logo{
+    width: 100px;
+    margin: 24px;
+}
+.list-footer{
+    color:#FFF;
+    margin: 24px;
+    list-style-type: none;
+}
+.main-title{
+    color:#FFF;
+    font-weight:900;
+    font-size:15px
+}

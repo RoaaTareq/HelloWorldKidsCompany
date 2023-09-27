@@ -1,0 +1,180 @@
+.certificate-title {
+    /* color:#FFF; */
+    margin: 25px 0;
+    font-weight: 900;
+}
+.certificate-text {
+    width: 700px;
+}
+.developer-img {
+    width: 300px;
+    margin: 12px 0;
+}
+.box-logic {
+    border-radius: 16px;
+    background: #dc5f00;
+    color: #fff;
+    padding: 18px;
+    font-weight: 900;
+    width: 400px;
+}
+.skill-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+.title-exam {
+    font-size: 28px;
+    font-weight: 900;
+}
+.btn-certficate {
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin: 24px 0;
+    background-color: #000;
+    padding: 6px;
+    width: 150px;
+    color: 12px;
+}
+.certficate-title {
+    font-weight: 900;
+    margin: 12px 0;
+}
+.cert-text {
+    font-weight: 800;
+    margin: 6px 0;
+}
+.web-course {
+    background: #e23237;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 900;
+    width: 250px;
+}
+.certficate {
+    width: 300px;
+}
+.talents {
+    font-weight: 900;
+    color: #fff;
+    background: #263238;
+    padding: 25px 0;
+}
+.talents-title {
+    font-weight: 900;
+    margin: 8px 0;
+}
+.talent-certficate {
+    color: #9593a6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 900px;
+}
+.certificate{
+    padding: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .box-logic {
+        width: 329px;
+    }
+    .talent-certficate{
+        width: 724px;
+        margin: 24px 0;
+    }
+    .talents-title{
+        padding: 24px 0;
+    }
+}
+
+
+    @media (min-width: 576px) and (max-width: 767px){
+        .talent-certficate {
+            color: #9593a6;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            width: 624px;
+        } 
+        .certificate-text {
+            width: 400px;
+        }
+        .certificate-mob{
+            flex-direction: column;
+        }
+       .developer-img {
+            width: 218px;
+           }
+           .box-logic {
+            width: 291px;
+        }
+        .title-exam {
+            width: 257px;
+        }
+        .text-exam{
+            width:239px
+        }
+    }
+  
+    @media (max-width: 575px){
+        .certificate-text {
+            width: 250px;
+        }
+        .certificate-mob{
+            flex-direction: column;
+        }
+       .developer-img {
+            width: 218px;
+           }
+           .box-logic {
+            width: 291px;
+        }
+        .title-exam {
+            width: 257px;
+        }
+        .text-exam{
+            width:239px
+        }
+        .talents{
+            padding: 25px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .talent-certficate {
+            width: 268px;
+        }
+        .talents-title{
+           padding-top: 24px;
+        }
+        .perks {
+            width: 267px;
+        }
+        .certificate-text {
+            width: 250px;
+        }
+        .certificate-mob{
+            flex-direction: column;
+        }
+       .developer-img {
+            width: 218px;
+           }
+           .box-logic {
+            width: 291px;
+        }
+        .title-exam {
+            width: 257px;
+        }
+        .text-exam{
+            width:239px
+        }
+        .certificate{
+            padding: 12px;
+        }
+        .talents {
+            padding: 12px;
+        }
+ 
+    }

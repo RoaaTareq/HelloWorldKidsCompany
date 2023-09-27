@@ -1,0 +1,41 @@
+.team {
+    width: 250px;
+    margin: 12px 0;
+}
+.perks {
+    background-color: #472183;
+    color: #fff;
+    border-radius: 8px;
+    padding: 6px;
+    width: 300px;
+}
+.title-partners{
+    text-align: center;
+    
+}
+.parnters{
+    width: 200px;
+}
+.Awards-title{
+    text-align: center;
+    font-weight: 900;
+    margin: 24px 0;
+}
+.Award-text{
+    font-size: 14px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.About-us{
+    text-align: center;
+    font-weight: 900;
+    margin: 24px 0 12px 0;
+}
+
+.student{
+    width: 500px;
+    border-radius: 12px;
+    margin: 24px  auto;
+    display: flex;
+}

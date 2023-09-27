@@ -1,0 +1,37 @@
+.numbers-of-Markting {
+        background-color: #691f66;
+        border-radius: 14px;
+        width: 1300px;
+        margin: auto;
+        position: relative;
+        top: -37px;
+        padding: 16px;
+    
+}
+.number {
+    color: #fff;
+    font-weight: 900;
+    margin: 12px 0;
+}
+.indeciters-num {
+    color: #fff;
+    font-weight: 900;
+    margin: 12px 0;
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .main-list{
+        display: none;
+    }
+}
+@media (max-width: 575px){
+    .main-list{
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    .numbers-of-Markting {
+        width: 200px;
+        
+    }
+}
